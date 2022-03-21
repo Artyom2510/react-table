@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/react-table/static/css/main.e6e13445.chunk.css",
-    "main.js": "/react-table/static/js/main.ba4d8013.chunk.js",
+    "main.css": "/react-table/static/css/main.dedc2771.chunk.css",
+    "main.js": "/react-table/static/js/main.9c10f97f.chunk.js",
     "runtime-main.js": "/react-table/static/js/runtime-main.251df789.js",
-    "static/js/2.e70747c8.chunk.js": "/react-table/static/js/2.e70747c8.chunk.js",
+    "static/js/2.98e4073a.chunk.js": "/react-table/static/js/2.98e4073a.chunk.js",
     "index.html": "/react-table/index.html",
-    "static/js/2.e70747c8.chunk.js.LICENSE.txt": "/react-table/static/js/2.e70747c8.chunk.js.LICENSE.txt",
+    "static/js/2.98e4073a.chunk.js.LICENSE.txt": "/react-table/static/js/2.98e4073a.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/react-table/static/media/Roboto-Regular.4673b453.woff2",
     "static/media/all.2379f39a.svg": "/react-table/static/media/all.2379f39a.svg",
     "static/media/even.e9292019.svg": "/react-table/static/media/even.e9292019.svg",
+    "static/media/help-circle.bb0b5ccc.svg": "/react-table/static/media/help-circle.bb0b5ccc.svg",
+    "static/media/logo@2x.4bb4d4cf.png": "/react-table/static/media/logo@2x.4bb4d4cf.png",
+    "static/media/logo@3x.0940a3ce.png": "/react-table/static/media/logo@3x.0940a3ce.png",
     "static/media/odd.c70dac60.svg": "/react-table/static/media/odd.c70dac60.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.251df789.js",
-    "static/js/2.e70747c8.chunk.js",
-    "static/css/main.e6e13445.chunk.css",
-    "static/js/main.ba4d8013.chunk.js"
+    "static/js/2.98e4073a.chunk.js",
+    "static/css/main.dedc2771.chunk.css",
+    "static/js/main.9c10f97f.chunk.js"
   ]
 }
