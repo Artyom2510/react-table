@@ -9,6 +9,7 @@ import {
 } from 'react-table';
 
 import { selectFilteredData } from '../../redux/dataSlice';
+import TablePreview from '../TablePreview';
 import DefaultColumnFilter from '../DefaultColumnFilter';
 import Thead from '../Thead';
 import TBody from '../TBody';
@@ -71,16 +72,19 @@ const Table: FC = () => {
 	);
 
 	return (
-		<table {...getTableProps()} className={styles.reactTable}>
-			<Thead headerGroups={headerGroups} />
-			<TBody
-				rows={rows}
-				prepareRow={prepareRow}
-				getTableBodyProps={getTableBodyProps}
-				headerGroups={headerGroups}
-			/>
-			<TFoot footerGroups={footerGroups} />
-		</table>
+		<div>
+			<TablePreview />
+			<table {...getTableProps()} className={styles.reactTable}>
+				<Thead headerGroups={headerGroups} />
+				<TBody
+					rows={rows}
+					prepareRow={prepareRow}
+					getTableBodyProps={getTableBodyProps}
+					headerGroups={headerGroups}
+				/>
+				<TFoot footerGroups={footerGroups} />
+			</table>
+		</div>
 	);
 };
 

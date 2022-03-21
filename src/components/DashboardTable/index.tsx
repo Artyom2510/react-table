@@ -4,6 +4,7 @@ import cn from 'classnames';
 import RadioFilter from '../RadioFilter';
 import Table from '../Table';
 
+import PlusImg from '../../assets/img/icons/plus-circle.svg';
 import styles from './DashboardTable.module.scss';
 
 const DashboardTable: FC = () => {
@@ -23,6 +24,10 @@ const DashboardTable: FC = () => {
 	return (
 		<section className={styles.reactTableSect}>
 			<div className={cn(styles.reactTableSect__radioBlock, styles.radioBlock)}>
+				<button className={styles.radioBlock__btn}>
+					<img src={PlusImg} alt='add' />
+					<span>Create new</span>
+				</button>
 				{radioType.map(el => {
 					return (
 						<RadioFilter
