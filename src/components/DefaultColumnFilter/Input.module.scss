@@ -1,0 +1,44 @@
+@import "../../assets/styles/vars";
+
+.input {
+	display: block;
+	width: 100%;
+	height: 32px;
+	padding: 5px 12px;
+	-moz-appearance: textfield;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	border-radius: 10px;
+	border: 1px solid #c6cacc;
+	color: $text;
+	outline: none !important;
+	background-color: $bg;
+
+	&::placeholder {
+		color: inherit;
+	}
+
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	&:-webkit-autofill,
+	&:-webkit-autofill:hover,
+	&:-webkit-autofill:focus {
+		font-family: "Roboto", sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 400;
+		letter-spacing: 0.25px;
+		caret-color: $text !important;
+		background-color: $bg !important;
+		color: $text !important;
+		-webkit-text-fill-color: $text;
+		box-shadow: 0 0 0 32px inset $bg !important;
+	}
+}

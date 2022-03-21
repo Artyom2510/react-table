@@ -1,0 +1,63 @@
+@import "../../assets/styles/vars";
+
+.radio {
+	$p: &;
+	display: block;
+	cursor: pointer;
+	border-radius: 10px;
+
+	svg {
+		display: block;
+		width: 28px;
+		height: auto;
+		margin-right: 12px;
+
+		path {
+			transition: fill 0.2s ease;
+		}
+	}
+
+	&__input {
+		display: none;
+
+		&:checked ~ #{$p}__wrap {
+			background-color: $blue2;
+
+			svg {
+				path {
+					fill: $blue;
+				}
+			}
+		}
+	}
+
+	&__wrap {
+		display: flex;
+		padding: 7px 12px;
+		border-radius: 10px;
+		background-color: transparent;
+		transition: background-color 0.2s ease;
+	}
+
+	&__name {
+		p {
+			&:first-child {
+				font-family: "Quicksand", sans-serif;
+				font-size: 16px;
+				line-height: 24px;
+				font-weight: 500;
+				letter-spacing: 0.44px;
+				color: $text;
+			}
+
+			&:last-child {
+				font-family: "Roboto", sans-serif;
+				font-size: 12px;
+				line-height: 16px;
+				font-weight: 400;
+				letter-spacing: 0.4px;
+				color: $gray;
+			}
+		}
+	}
+}

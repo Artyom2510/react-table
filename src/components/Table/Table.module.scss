@@ -1,0 +1,52 @@
+@import "../../assets/styles/vars";
+
+.reactTable {
+	width: 100%;
+	max-width: 920px;
+
+	th,
+	td {
+		text-align: right;
+
+		&:first-child {
+			text-align: left;
+		}
+	}
+
+	td {
+		width: 12.83%;
+		padding: 18px 0;
+		font-family: "Roboto", sans-serif;
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 500;
+		letter-spacing: 0.15px;
+		color: $gray;
+		border-bottom: 1px solid $border;
+
+		&:first-child {
+			width: 35.87%;
+			color: $text;
+		}
+	}
+
+	tr {
+		&:last-child {
+			td {
+				border-bottom: none;
+			}
+		}
+	}
+
+	tfoot {
+		tr {
+			td {
+				padding: 0 0 0 32px;
+
+				&:first-child {
+					padding: 0;
+				}
+			}
+		}
+	}
+}
